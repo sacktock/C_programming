@@ -36,13 +36,13 @@ int main()
 	int i;
 	int n = SIZE(arr) - 1;
 	for (i = 0 ; i < n ; i++){
-		printf(' %d ', arr[i]);
+		printf(" %d ", arr[i]);
 	}
-	printf(' \n ');
+	printf(" \n ");
 	bubble_sort(arr,n);
 	printf("Sorting.. \n");
 	for (i = 0 ; i < n ; i++){
-		printf(' %d ', arr[i]);
+		printf(" %d ", arr[i]);
 	}
 	return 0;
 }
